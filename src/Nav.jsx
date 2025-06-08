@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 import { Button, Link } from '@mui/material'
 import React from 'react'
 import Todo from './Todo'
+=======
+import { Button } from '@mui/material'
+import React from 'react'
+import { Link as RouterLink } from 'react-router-dom' // 1. Import Link from react-router-dom
+>>>>>>> b064fdb (Initial commit)
 
 function Nav() {
   return (
     <>
+<<<<<<< HEAD
     <nav className='bg-[#FFD6BA]'>
   <div class=" mx-auto p-4">
     <div>
@@ -23,6 +30,19 @@ function Nav() {
     </div>
   </div>
 </nav>
+=======
+     <nav className='flex justify-between items-center p-4 bg-[#FFD6BA]'>
+      <div className='text-4xl font-bold text-[#3B3B1A]'>
+        ToDo
+      </div>
+      <div>
+        {/* 2. Use the component prop on Button to integrate the RouterLink */}
+        {/* 3. Correct the path for Home to "/" to match your Route in App.jsx */}
+        <Button component={RouterLink} to="/" style={{ textDecoration: 'none', color: '#333' }}>Home</Button>
+        <Button component={RouterLink} to="/Todo" style={{ textDecoration: 'none', color: '#333' }}>Todo</Button>
+      </div>
+    </nav>
+>>>>>>> b064fdb (Initial commit)
     </>
   )
 }
