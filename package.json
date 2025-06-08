@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "todo-app",
-=======
-  "name": "test-sample",
->>>>>>> b064fdb (Initial commit)
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,19 +12,11 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-<<<<<<< HEAD
-    "@mui/material": "^7.1.0",
-    "@tailwindcss/vite": "^4.1.8",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.1",
-=======
     "@mui/material": "^7.1.1",
     "@tailwindcss/vite": "^4.1.8",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.2",
->>>>>>> b064fdb (Initial commit)
     "tailwindcss": "^4.1.8"
   },
   "devDependencies": {
